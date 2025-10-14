@@ -14,7 +14,7 @@ public class EmailService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    @Value("${BREVO_FROM_MAIL}")
+    @Value("${spring.mail.properties.mail.smtp.from}")
     private String fromEmail;
 
     @Value("${BREVO_API_KEY}")
