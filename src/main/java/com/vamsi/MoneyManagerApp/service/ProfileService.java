@@ -100,6 +100,7 @@ public class ProfileService {
                 .id(profileDTO.getId())
                 .fullName(profileDTO.getFullName())
                 .email(profileDTO.getEmail())
+                .imageUrl(profileDTO.getImageUrl())
                 .password(passwordEncoder.encode(profileDTO.getPassword()))
                 .createAt(profileDTO.getCreateAt())
                 .updatedAt(profileDTO.getUpdatedAt())
@@ -111,6 +112,7 @@ public class ProfileService {
                 .id(profileEntity.getId())
                 .fullName(profileEntity.getFullName())
                 .email(profileEntity.getEmail())
+                .imageUrl(profileEntity.getImageUrl())
                 .createAt(profileEntity.getCreateAt())
                 .updatedAt(profileEntity.getUpdatedAt())
                 .build();
