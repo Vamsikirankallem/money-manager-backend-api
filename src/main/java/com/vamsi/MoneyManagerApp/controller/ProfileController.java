@@ -20,6 +20,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ProfileController {
 
     private final AuthenticationManager authenticationManager;
