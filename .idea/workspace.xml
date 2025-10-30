@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ace9d73-87cf-4f3d-8a0c-4e63953aeb77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="7ace9d73-87cf-4f3d-8a0c-4e63953aeb77" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,12 +61,12 @@
   <component name="RunManager">
     <configuration name="MoneyManager" type="Application" factoryName="Application">
       <envs>
+        <env name="BREVO_API_KEY" value="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" />
         <env name="BREVO_FROM_EMAIL" value="kallemvamsikiran@gmail.com" />
         <env name="BREVO_PASSWORD" value="E9r3TD65M0fc7wPa" />
         <env name="BREVO_USERNAME" value="989395002@smtp-brevo.com" />
         <env name="MONEY_MANAGER_BACKEND_URL" value="http://localhost:8081" />
         <env name="MONEY_MANAGER_FRONTEND_URL" value="http://localhost:5173" />
-        <env name="BREVO_API_KEY" value="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" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.vamsi.MoneyManagerApp.MoneyManagerAppApplication" />
       <module name="MoneyManagerApp" />
