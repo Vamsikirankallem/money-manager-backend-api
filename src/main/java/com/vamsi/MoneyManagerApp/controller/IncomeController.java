@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/incomes")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class IncomeController {
 
     private final IncomeService incomeService;

@@ -65,4 +65,9 @@ public class ProfileController {
 
         return isActivated ? new ResponseEntity<>("Profile Activated Successfully",HttpStatus.OK) : new ResponseEntity<>("Profile Activation Failed",HttpStatus.CONFLICT);
     }
+
+    @GetMapping("/profile")
+    public ResponseEntity<ProfileDTO> getPublicProfile(){
+        return new ResponseEntity<>(profileService.getPublicProfile(null),HttpStatus.OK);
+    }
 }

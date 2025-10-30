@@ -13,13 +13,14 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/expenses")
+@CrossOrigin("*")
 public class ExpenseController {
 
     private final ExpenseService expenseService;
 
     @GetMapping
     public ResponseEntity<List<ExpenseDTO>> getCurrentMonthExpensesOfCurrentUser(){
-        return new ResponseEntity<>(expenseService.getCurrentMonthExpensesOfCurrentUser(),HttpStatus.FOUND);
+        return new ResponseEntity<>(expenseService.getCurrentMonthExpensesOfCurrentUser(),HttpStatus.OK);
     }
 
     @GetMapping("/topFive")

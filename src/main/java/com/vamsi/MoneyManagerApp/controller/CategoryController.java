@@ -12,18 +12,19 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class CategoryController {
 
     private final CategoryService categoryService;
 
     @GetMapping("categories")
     public ResponseEntity<List<CategoryDTO>> getCategories(){
-        return new ResponseEntity<>(categoryService.getCategoriesForCurrentUser(),HttpStatus.FOUND);
+        return new ResponseEntity<>(categoryService.getCategoriesForCurrentUser(),HttpStatus.OK);
     }
 
     @GetMapping("categories/{type}")
     public ResponseEntity<List<CategoryDTO>> getCategoriesByType(@PathVariable String type){
-        return new ResponseEntity<>(categoryService.getCategoriesByTypeForCurrentUser(type),HttpStatus.FOUND);
+        return new ResponseEntity<>(categoryService.getCategoriesByTypeForCurrentUser(type),HttpStatus.OK);
     }
 
     @PostMapping("addCategory")
@@ -34,9 +35,11 @@ public class CategoryController {
         return new ResponseEntity<>(categoryDTO1, HttpStatus.CREATED);
     }
 
-    @PutMapping("category/update/{categoryId}")
+    @PutMapping("category/{categoryId}")
     public ResponseEntity<CategoryDTO> updateCategory(@PathVariable Long categoryId ,@RequestBody CategoryDTO categoryDTO){
         return new ResponseEntity<>(categoryService.updateCategory(categoryId,categoryDTO),HttpStatus.OK);
     }
+
+
 
 }
