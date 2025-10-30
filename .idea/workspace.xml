@@ -68,6 +68,7 @@
         <env name="BREVO_USERNAME" value="989395002@smtp-brevo.com" />
         <env name="MONEY_MANAGER_BACKEND_URL" value="http://localhost:8081" />
         <env name="MONEY_MANAGER_FRONTEND_URL" value="http://localhost:5173" />
+        <env name="BREVO_API_KEY" value="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" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.vamsi.MoneyManagerApp.MoneyManagerAppApplication" />
       <module name="MoneyManagerApp" />
