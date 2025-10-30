@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ace9d73-87cf-4f3d-8a0c-4e63953aeb77" name="Changes" comment="" />
+    <list default="true" id="7ace9d73-87cf-4f3d-8a0c-4e63953aeb77" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +63,6 @@
   <component name="RunManager">
     <configuration name="MoneyManager" type="Application" factoryName="Application">
       <envs>
-        <env name="BREVO_API_KEY" value="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" />
         <env name="BREVO_FROM_EMAIL" value="kallemvamsikiran@gmail.com" />
         <env name="BREVO_PASSWORD" value="E9r3TD65M0fc7wPa" />
         <env name="BREVO_USERNAME" value="989395002@smtp-brevo.com" />
