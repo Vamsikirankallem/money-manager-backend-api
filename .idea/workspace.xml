@@ -5,67 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ace9d73-87cf-4f3d-8a0c-4e63953aeb77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/ExpenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/ExpenseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/FilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/FilterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/IncomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/IncomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/controller/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vamsi/MoneyManagerApp/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/MoneyManagerAppApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/DashboardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/ExpenseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/FilterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/IncomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/controller/ProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/AuthDTO$AuthDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/AuthDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/CategoryDTO$CategoryDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/CategoryDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/ExpenseDTO$ExpenseDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/ExpenseDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/FilterDTO$FilterDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/FilterDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/IncomeDTO$IncomeDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/IncomeDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/ProfileDTO$ProfileDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/ProfileDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/RecentTransactionDTO$RecentTransactionDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/dto/RecentTransactionDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/CategoryEntity$CategoryEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/CategoryEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/ExpenseEntity$ExpenseEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/ExpenseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/IncomeEntity$IncomeEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/IncomeEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/ProfileEntity$ProfileEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/entity/ProfileEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/repository/ExpenseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/repository/IncomeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/repository/ProfileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/DashboardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/EmailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/ExpenseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/IncomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/MyUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/NotificationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/service/ProfileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vamsi/MoneyManagerApp/util/JwtFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/MoneyManagerApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
